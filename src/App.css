@@ -1,0 +1,96 @@
+.App {
+  text-align: center;
+}
+form {
+ border:2px solid rgb(66, 0, 128);
+ padding: 30px;
+}
+img{
+ height: 120px;
+ margin-left: 90px;
+ margin-bottom: 10px;
+ display: block;
+ border:1px solid black;
+ border-radius: 50%;
+}
+.App-header {
+ background-color: white;
+ min-height: 100vh;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ font-size: calc(10px + 2vmin);
+ color: black;
+}
+
+h1 {
+  color: darkblue;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  height: 55px;
+  width: 100%;
+  background: linear-gradient(to right, #ff5858, #f857a6);
+}
+
+.menu {
+  margin: 0;
+  height: 100%;
+  display: flex;
+  position: relative;
+  align-items: center;
+  list-style-type: none;
+  justify-content: center;
+  background: linear-gradient(to right, #3a2727, #75234b);
+}
+
+.nav-item {
+  margin-right: 20px;
+  font-size: 20px;
+  color: #f1f1f1;
+  cursor: pointer;
+}
+
+.nav-btn {
+  display: none;
+  position: absolute;
+  right: 10px;
+  top: 7px;
+  padding: 5px;
+  color: #000;
+  font-size: 18px;
+}
+
+@media screen and (max-width: 500px) {
+  .menu {
+    flex-direction: column;
+    height: auto;
+  }
+  .nav-item:nth-child(1) {
+    margin-top: 55px;
+    border-top: 1px solid rgba(255, 249, 249, 0.555);
+  }
+  .nav-item {
+    width: 100%;
+    padding: 22px 0;
+    text-align: center;
+    margin-right: 0px;
+    border-top: 1px solid rgba(158, 93, 93, 0.555);
+  }
+  .nav-btn {
+    display: block;
+  }
+}
+tr:hover {
+  background-color: whitesmoke;
+}
+
+a {
+  color: #FFF;
+}
+a:hover {
+   color: #00F
+}
