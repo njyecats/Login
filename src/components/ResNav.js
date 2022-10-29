@@ -26,8 +26,7 @@ function ResNav() {
           <li className="nav-item">Home</li>
           <li className="nav-item"><a className="nav-link" href="https://www.youtube.com">Watching</a></li>
           <li className="nav-item"><a className="nav-link" href="https://www.amazon.com">Shopping</a></li>
-
-        <li><a className="nav-link" href="https://www.audible.com">Listening</a></li>
+          <li className ="nav-item"><a className="nav-link" href="https://www.audible.com">Listening</a></li>
         </ul>
       )}
 
